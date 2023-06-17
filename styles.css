@@ -120,7 +120,7 @@ body, html {
 }
 
 #header-image {
-    height: 500px;
+    max-height: 31rem;
     display: block;
     margin: 10px auto 15px auto;
    background-color: rgb(117, 225, 254, 0.5);
