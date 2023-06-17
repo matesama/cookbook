@@ -120,7 +120,7 @@ body, html {
 }
 
 #header-image {
-    height: 500px;
+    max-height: 31rem;
     display: block;
     margin: 10px auto 15px auto;
    background-color: rgb(117, 225, 254, 0.5);
@@ -128,6 +128,11 @@ body, html {
    filter: drop-shadow(0 0 0.75rem black);   
    
 }
+
+.share-button{
+    text-align: right;
+}
+
 /*header {
     //background-image: url("./imgs/cover-img-.jpg");//
     margin: 0 0 15px 0;
@@ -138,5 +143,6 @@ body, html {
 .button-alignment {
     text-align: center;
 }
+
 
 
