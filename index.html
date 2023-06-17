@@ -30,15 +30,15 @@
       </nav>
       <section >
         <div class="jumbotron bg-info mr-5 text-center">
-          <h2 class="display-5" >Igniting Young Chefs: Empowering Kids in the Kitchen!</h2>
-          <img src="./imgs/cover-img-.jpg" id="header-image" alt="funny kids cookbook cover" class="mr-10">
+          <h2 class="display-5 mb-4" >Igniting Young Chefs: Empowering Kids in the Kitchen!</h2>
+          <img src="./imgs/cover-img-.jpg" id="header-image" alt="funny kids cookbook cover" class="mr-10 mb-4">
           <p class="lead">Welcome to Kids Menu, where cooking becomes an extraordinary adventure for kids! 
             We're passionate about finding and creating recipes that inspire children to actively participate in the culinary world.</p>
           <hr class="my-4">
           <p>Cooking isn't just about nourishing our bodies; it's an opportunity for kids to develop vital life skills, ignite their creativity, 
             and foster a lifelong love for food.</p>
           <p>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="collapseExample">
+            <a class="btn btn-primary learn-more-button mb-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="collapseExample">
                 Learn More!
             </a>
           </p>
@@ -82,30 +82,34 @@
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light  sticky-top mb-5 >
           <div class="container-fluid">
-            <a class="navbar-brand text-decoration-underline fw-bold" href="#"><img src="./imgs/dinner.png" class="serving-icon">Recipes</a>
+            <a class="navbar-brand text-decoration-underline fw-bold recipe-nav-font" href="#"><img src="./imgs/dinner.png" class="serving-icon">Recipes</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link" href="#rainbow-pizza">Rainbow Pizza</a>
-                <a class="nav-link" href="#berry-banana-shake">Berry Banana Shake</a>
-                <a class="nav-link" href="#kiddie-crunch">Kiddie Crunch Mix</a>
-                <a class="nav-link" href="#muffin-tray">Muffin Trays Snack</a>
-                <a class="nav-link" href="#owl-yoghurt-bowl">Owl Yoghurt Bowl</a>
-                <a class="nav-link" href="#sandwich-kebab">Sandwich Kebab</a>
+                <a class="nav-link nav-font" href="#rainbow-pizza">Rainbow Pizza</a>
+                <a class="nav-link nav-font" href="#berry-banana-shake">Berry Banana Shake</a>
+                <a class="nav-link nav-font" href="#kiddie-crunch h3">Kiddie Crunch Mix</a>
+                <a class="nav-link nav-font" href="#muffin-tray">Muffin Trays Snack</a>
+                <a class="nav-link nav-font" href="#owl-yoghurt-bowl">Owl Yoghurt Bowl</a>
+                <a class="nav-link nav-font" href="#sandwich-kebab">Sandwich Kebab</a>
               </div>
             </div>
           </div>
         </nav>
-      </div>
+      
   
       <div class="row">
-        <div class="card mx-auto mb-3 col-md-5 col-sm-8" id="rainbow-pizza" >
-            <img src="./imgs/01-Rainbow-pizza1.jpg" alt="Delicious Rainbow Pizza" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Rainbow Pizza</h5>
-
+        <div class="col-sm-12 col-lg-6">
+          <div class="card mx-auto m-3" >
+            <h2 class="card-header">Rainbow Pizza</h2>
+            <article class="recipe-post card-body" id="rainbow-pizza">
+              <img
+                src="./imgs/01-Rainbow-pizza1.jpg"
+                alt="Rainbow Pizza"
+                class="recipe-images card-img-top"
+              />
               <p>Ingredients:</p>
               <ul>
                 <li>store-bought pizza base</li>
@@ -115,10 +119,14 @@
                   yellow pepper, broccoli, red onion, and kalamata olives
                 </li>
               </ul>
-
+              <a href="#" class="btn btn-primary " onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg></a>
             </article>
           </div>
-          <div class="card mx-auto m-3" style="width: 28rem">
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="card mx-auto m-3">
             <h2 class="card-header">Berry Banana Shake</h2>
             <article class="recipe-post card-body" id="berryBananaShake">
               <img
@@ -135,56 +143,74 @@
                 </li>
                 <li>one banana</li>
               </ul>
+              <a href="#" class="btn btn-primary " onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg></a>
             </article>
           </div>
-          <div class="card mx-auto m-3" style="width: 28rem">
-            <h2 class="card-header">Kiddie Crunch Mix</h2>
-            <article class="recipe-post card-body" id="kiddieCrunchMix">
-              <img
-                src="./imgs/Kiddie-Crunch-MixCROPPED.jpg"
-                alt="Kitty-Crunch-Mix Snack"
-                class="recipe-images card-img-top"
-              />
-              <p>Ingredients:</p>
-              <ul>
-                <li>1 cup plain or frosted animal crackers</li>
-                <li>1 cup bear-shaped crackers</li>
-                <li>1 cup miniature pretzels</li>
-                <li>1 cup salted peanuts</li>
-                <li>1 cup M&M's</li>
-                <li>1 cup yogurt- or chocolate-covered raisins</li>
-              </ul>
-            </article>
-          </div>
-          <div class="card mx-auto m-3" style="width: 28rem">
-            <h2 class="card-header">Muffin Trays Snack</h2>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+      <div class="card mx-auto m-3" >
+        <h2 class="card-header">Kiddie Crunch Mix</h2>
+        <article class="recipe-post card-body" id="kiddieCrunchMix">
+          <img
+            src="./imgs/Kiddie-Crunch-MixCROPPED.jpg"
+            alt="Kitty-Crunch-Mix Snack"
+            class="recipe-images card-img-top"
+          />
+          <p>Ingredients:</p>
+            <ul>
+              <li>1 cup plain or frosted animal crackers</li>
+              <li>1 cup bear-shaped crackers</li>
+              <li>1 cup miniature pretzels</li>
+              <li>1 cup salted peanuts</li>
+              <li>1 cup M&M's</li>
+              <li>1 cup yogurt- or chocolate-covered raisins</li>
+            </ul>
+            <a href="#" class="btn btn-primary " onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+            </svg></a>
+        </article>
+      </div>
+      </div>
+      <div class="col-sm-12 col-lg-6">
+      <div class="card mx-auto m-3" >
+        <h2 class="card-header">Muffin Trays Snack</h2>
+        <article class="recipe-post card-body" id="muffinTraysSnack">
+          <img
+            src="./imgs/muffintraysnackCROPPED.png"
+            alt="Muffin Tray Snack"
+            class="recipe-images card-img-top"
+          />
+          <p>Ingredients:</p>
+            <ul>
+              <li>cheese</li>
+              <li>raspberry</li>
+              <li>carrot</li>
+              <li>blueberry</li>
+              <li>crackers</li>
+            </ul>
+            <a href="#" class="btn btn-primary " onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+            </svg></a>
+        </article>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-lg-6">
+        <div class="card mx-auto m-3">
+          <h2 class="card-header">Owl Yoghurt Bowl</h2>
 
-            <article class="recipe-post card-body" id="muffinTraysSnack">
-              <img
-                src="./imgs/muffintraysnackCROPPED.png"
-                alt="Muffin Tray Snack"
-                class="recipe-images card-img-top"
-              />
-              <p>Ingredients:</p>
-              <ul>
-                <li>cheese</li>
-                <li>raspberry</li>
-                <li>carrot</li>
-                <li>blueberry</li>
-                <li>crackers</li>
-              </ul>
-            </article>
-          </div>
-          <div class="card mx-auto m-3" style="width: 28rem">
-            <h2 class="card-header">Owl Yoghurt Bowl</h2>
-
-            <article class="recipe-post card-body" id="owlYoghurtBowl">
-              <img
-                src="./imgs/owlyoghurtbowlCROPPED.jpg"
-                alt="Owl Form Yoghurt Bowl"
-                class="recipe-images card-img-top"
-              />
-              <p>Ingredients:</p>
+          <article class="recipe-post card-body" id="owlYoghurtBowl">
+            <img
+              src="./imgs/owlyoghurtbowlCROPPED.jpg"
+              alt="Owl Form Yoghurt Bowl"
+              class="recipe-images card-img-top"
+            />
+            <p>Ingredients:</p>
               <ul>
                 <li>150g organic natural yogurt</li>
                 <li>1 tsp honey (optional)</li>
@@ -193,32 +219,42 @@
                 <li>1 red grape</li>
                 <li>small handful organic cornflakes</li>
               </ul>
-            </article>
-          </div>
-          <div class="card mx-auto m-3" style="width: 28rem">
-            <h2 class="card-header">Sandwich Kebab</h2>
-
-            <article class="recipe-post card-body" id="sandwichKebab">
-              <img
-                src="./imgs/sandwich_kebab_CROPPED.jpg"
-                alt="Sandwich with Kebab Topping"
-                class="recipe-images card-img-top"
-              />
-              <p>Ingredients:</p>
-              <ul>
-                <li>4 slices bread</li>
-                <li>1 tbs butter</li>
-                <li>2 slices leg ham</li>
-                <li>2 slices cheese</li>
-                <li>6 baby cornichons</li>
-                <li>6 red grape tomatoes</li>
-              </ul>
-            </article>
-          </div>
+              <a href="#" class="btn btn-primary " onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+              </svg></a>
+          </article>
         </div>
       </div>
-      <div class="row-3">xys</div>
-    </section>
+      <div class="col-sm-12 col-lg-6">    
+      <div class="card mx-auto m-3">
+        <h2 class="card-header">Sandwich Kebab</h2>
+
+        <article class="recipe-post card-body" id="sandwichKebab">
+          <img
+            src="./imgs/sandwich_kebab_CROPPED.jpg"
+            alt="Sandwich with Kebab Topping"
+            class="recipe-images card-img-top"
+          />
+          <p>Ingredients:</p>
+            <ul>
+              <li>4 slices bread</li>
+              <li>1 tbs butter</li>
+              <li>2 slices leg ham</li>
+              <li>2 slices cheese</li>
+              <li>6 baby cornichons</li>
+              <li>6 red grape tomatoes</li>
+            </ul>
+            <a href="#" class="btn btn-primary " onclick="myFunction()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+              <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5zm-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3z"/>
+            </svg></a>
+        </article>
+      </div>
+     </div> 
+    </div>
+    
+    </div>
+  </section>
+  
 </main>
 <footer>
 
@@ -226,7 +262,7 @@
       <div class="container">
           <div class="row">
               <div class="col-6">
-                  <h3 class="mb-3 text-decoration-underline">More Recipies</h3>
+                  <h3 class="mb-3 text-decoration-underline">Find Out More</h3>
               </div>
               <div class="col-6 text-right justify-content-end">
                   <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
@@ -322,5 +358,10 @@
   </section>
   <small ><p class="text-center">® Team 3 Verena, Anna, Mateo</p></small>
 </footer>
+<script>
+  function myFunction() {
+    alert("Thank you for sharing!");
+  }
+  </script>
 </body>
 </html>

@@ -8,6 +8,13 @@ body, html {
     color: #681c0c;
 }
 
+.recipe-nav-font {
+    font-size: 3rem;
+}
+.nav-font{
+    font-size: 1.5rem;
+}
+
 .flex-parent {
     display: flex; 
     justify-content: space-between;
@@ -46,15 +53,15 @@ body, html {
     font-size: 22px;
 }
 
-.recipes {
+/*.recipes {
     width: 75%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-}
+}*/
 
-ul {
+/*ul {
    list-style: none;
    padding: 0 10px 0 10px;
    
@@ -69,9 +76,9 @@ ul {
 
 .navigation ul li a:hover {
     color: rgb(240, 206, 178);
-}
+}*/
 
-.recipe-post {
+/*.recipe-post {
     text-align: center;
     border: solid 1px #681c0c;
     border-radius: 15px;
@@ -88,7 +95,7 @@ ul {
     max-width: 400px;
     max-height: 400px;
   
-}
+}*/
 .tooltip{
     visibility: hidden;
     background-color: black;
