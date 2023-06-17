@@ -2,6 +2,7 @@ body, html {
     font-family: 'Gorditas', cursive;
     color: #681c0c;
     background-color: rgb(117, 225, 254, 0.1);
+    font-size: 1.25rem;
 }
 
 .bootstrapBrown {
@@ -137,6 +138,11 @@ body, html {
 }
 
 
+.share-button{
+    text-align: right;
+}
+
+
 /*header {
     //background-image: url("./imgs/cover-img-.jpg");//
     margin: 0 0 15px 0;
@@ -147,5 +153,6 @@ body, html {
 .button-alignment {
     text-align: center;
 }
+
 
 
