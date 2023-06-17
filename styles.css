@@ -15,6 +15,23 @@ body, html {
     font-size: 1.5rem;
 }
 
+
+.head-img-resposiveness{
+    max-width: 50%;
+    height: auto;
+}
+
+#header-image {
+    /*height: 500px;*/
+    display: block;
+    margin: 10px auto 15px auto;
+   background-color: rgb(117, 225, 254, 0.5);
+   border-radius: 15px;
+   filter: drop-shadow(0 0 0.75rem black);   
+   
+}
+
+
 .flex-parent {
     display: flex; 
     justify-content: space-between;
@@ -119,15 +136,7 @@ body, html {
     
 }
 
-#header-image {
-    height: 500px;
-    display: block;
-    margin: 10px auto 15px auto;
-   background-color: rgb(117, 225, 254, 0.5);
-   border-radius: 15px;
-   filter: drop-shadow(0 0 0.75rem black);   
-   
-}
+
 /*header {
     //background-image: url("./imgs/cover-img-.jpg");//
     margin: 0 0 15px 0;
