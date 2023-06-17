@@ -4,7 +4,9 @@ body, html {
     background-color: rgb(117, 225, 254, 0.1);
 }
 
-
+.bootstrapBrown {
+    color: #681c0c;
+}
 
 .flex-parent {
     display: flex; 
@@ -119,9 +121,9 @@ ul {
    filter: drop-shadow(0 0 0.75rem black);   
    
 }
-header {
-    background-image: url("./imgs/cover-img-.jpg");
+//header {
+    //background-image: url("./imgs/cover-img-.jpg");//
     margin: 0 0 15px 0;
     background-color: rgb(117, 225, 254, 0.5);
-}
+}//
 

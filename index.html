@@ -1,37 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--<link rel="stylesheet" href="styles.css" />-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>kids-menu-cookbookProject</title>
   </head>
   <body>
- 
+    <header id="home">
+      <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-top" >
+        <div class="container-fluid">
+          <a class="navbar-brand text-decoration-underline fw-bold" href="#"><img src="./imgs/dinner.png" class="serving-icon">Kids Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#recipies">Recipes</a>
+              <a class="nav-link" href="#moreFooter">Find Out More</a>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section >
+        <div class="jumbotron bg-info mr-5 text-center">
+          <h2 class="display-5" >Igniting Young Chefs: Empowering Kids in the Kitchen!</h2>
+          <img src="./imgs/cover-img-.jpg" id="header-image" alt="funny kids cookbook cover" class="mr-10">
+          <p class="lead">Welcome to Kids Menu, where cooking becomes an extraordinary adventure for kids! 
+            We're passionate about finding and creating recipes that inspire children to actively participate in the culinary world.</p>
+          <hr class="my-4">
+          <p>Cooking isn't just about nourishing our bodies; it's an opportunity for kids to develop vital life skills, ignite their creativity, 
+            and foster a lifelong love for food.</p>
+          <p>
+            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-target="collapseExample">
+                Learn More!
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <article>
+  
+                <p>
+                 Our dedicated team of culinary enthusiasts has curated a collection of recipes specifically designed to excite and 
+                 inspire young chefs. 
+                 From quick snacks to mouthwatering main courses and delightful desserts, our recipes cater to every palate.
+                 <br>
+                 <br>
+                 But our mission extends beyond sharing recipes. We aim to foster togetherness and create lasting memories in the kitchen. 
+                 Cooking becomes a platform for building strong family connections, 
+                 where kids and parents can learn from each other and create moments of joy and laughter.
+                 <br>
+                 <br>
+                 With easy-to-follow instructions, helpful tips, and engaging visuals, our kid-friendly recipes make it fun and 
+                 simple for young chefs to get cooking. By empowering kids with culinary skills, 
+                 we equip them with tools for making healthier choices, fostering creativity, and boosting self-confidence.
+                 <br>
+                 <br>
+                 Join us on this incredible culinary journey, where the kitchen becomes a playground and meals become masterpieces. 
+                 Discover the joy of cooking with kids at Kids Menu, 
+                 inspiring the next generation of chefs, one delicious recipe at a time.
+               </p>
+           
+             </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      
+      <br>
 
-        <div class="recipes col-6">
-          <div class="card mx-auto m-3" style="width: 28rem">
-            <h2 class="card-header">Rainbow Pizza</h2>
-            <article class="recipe-post card-body" id="rainbowPizza">
-              <div class="tooltipImg">
-                <img
-                  src="./imgs/01-Rainbow-pizza1.jpg"
-                  alt="Delicious Rainbow Pizza"
-                  class="recipe-images card-img-top"
-                  id="rainbowPizzaImg"
-                /><br /><span class="tooltip">Rainbow Pizza</span>
+  </header>
+  <main>
+    <div class="container" id="recipies">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light  sticky-top mb-5 >
+          <div class="container-fluid">
+            <a class="navbar-brand text-decoration-underline fw-bold" href="#"><img src="./imgs/dinner.png" class="serving-icon">Recipes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#rainbow-pizza">Rainbow Pizza</a>
+                <a class="nav-link" href="#berry-banana-shake">Berry Banana Shake</a>
+                <a class="nav-link" href="#kiddie-crunch">Kiddie Crunch Mix</a>
+                <a class="nav-link" href="#muffin-tray">Muffin Trays Snack</a>
+                <a class="nav-link" href="#owl-yoghurt-bowl">Owl Yoghurt Bowl</a>
+                <a class="nav-link" href="#sandwich-kebab">Sandwich Kebab</a>
               </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+  
+      <div class="row">
+        <div class="card mx-auto mb-3 col-md-5 col-sm-8" id="rainbow-pizza" >
+            <img src="./imgs/01-Rainbow-pizza1.jpg" alt="Delicious Rainbow Pizza" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Rainbow Pizza</h5>
+
               <p>Ingredients:</p>
               <ul>
                 <li>store-bought pizza base</li>
@@ -41,6 +115,7 @@
                   yellow pepper, broccoli, red onion, and kalamata olives
                 </li>
               </ul>
+
             </article>
           </div>
           <div class="card mx-auto m-3" style="width: 28rem">
@@ -144,11 +219,108 @@
       </div>
       <div class="row-3">xys</div>
     </section>
-    <footer></footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</main>
+<footer>
+
+    <section class="pt-5 pb-5" id="moreFooter">
+      <div class="container">
+          <div class="row">
+              <div class="col-6">
+                  <h3 class="mb-3 text-decoration-underline">More Recipies</h3>
+              </div>
+              <div class="col-6 text-right justify-content-end">
+                  <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
+                      <i class="fs-3">←</i>
+                  </a>
+                  <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-bs-slide="next">
+                      <i class="fs-3">→</i>
+                  </a>
+              </div>
+              <div class="col-12">
+                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+  
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="./imgs/01-Rainbow-pizza1.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Rainbow Pizza</h4>
+                                              <p class="card-text"><a href="#rainbow-pizza">Find out more!</a></p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="./imgs/berrybananashakeCROPPED.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Berry Banana Shake</h4>
+                                              <p class="card-text"><a href="berry-banana-shake">Find out more!</a></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="./imgs/Kiddie-Crunch-MixCROPPED.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Kiddie Crunch Mix</h4>
+                                              <p class="card-text"><a href="#kiddie-crunch">Find out more!</a></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="./imgs/muffintraysnackCROPPED.png">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Muffin Tray Snack</h4>
+                                              <p class="card-text"><a href="#muffin-tray">Find out more!</a></p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="./imgs/owlyoghurtbowlCROPPED.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">OWl Yoghurt Bowl</h4>
+                                              <p class="card-text"><a href="#owl-yoghurt-bowl">Find out more!</a></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="./imgs/sandwich_kebab_CROPPED.jpg">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Sandwich Kebab</h4>
+                                              <p class="card-text"><a href="#sandwich-kebab">Find out more!</a></p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+  </section>
+  <small ><p class="text-center">® Team 3 Verena, Anna, Mateo</p></small>
+</footer>
+</body>
 </html>
